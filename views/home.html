@@ -1,0 +1,61 @@
+<div class="row text-center hidden-xs" style="background-color: white; padding-top:1em; padding-bottom:1em">
+    <img style="width:40%;" src="images/asu_logo.jpg"/>
+</div>
+<div class="row text-center visible-xs-block" style="background-color: white; padding-top:1em; padding-bottom:1em">
+        <img style="width:80%;" src="images/asu_logo.jpg"/>
+    </div>
+<div class="row text-center" style="background-color:white; color:black">
+    <h2 ng-show="home.countdown.days > 0">The conference begins in {{home.countdown.days}} {{home.countdown.days > 1 ? 'days!' : 'day!'}}</h2>
+    <h2>February 20 - 23, 2019</h2>
+</div>
+<div class="row text-center hidden-xs" style="background-color:cornflowerblue; color:black">
+    <h4><strong>Come enjoy the weather!</strong></h4>
+    <div class="weather-card">
+        <div>Feb 20</div>
+        <img src="images/sunny.png" />
+        <div>Average high</div>
+        <div>73.3&deg;F</div>
+    </div>
+    <div class="weather-card">
+        <div>Feb 21</div>
+        <img src="images/sunny.png" />
+        <div>Average high</div>
+        <div>73.5&deg;F</div>
+    </div>
+    <div class="weather-card">
+        <div>Feb 22</div>
+        <img src="images/sunny.png" />
+        <div>Average high</div>
+        <div>73.6&deg;F</div>
+    </div>
+    <div class="weather-card">
+        <div>Feb 23</div>
+        <img src="images/sunny.png" />
+        <div>Average high</div>
+        <div>73.8&deg;F</div>
+    </div>
+</div>
+<div class="row text-center visible-xs-block" style="background-color:cornflowerblue; color:black">
+    <h4><strong>Come enjoy the weather!</strong></h4>
+    <div>Historical average high</div>
+</div>
+<div class="row weather-background visible-xs-block" style="background-image: url(images/sunny-back.png); background-color:cornflowerblue; color:white; font-weight:bold">
+    <table class="table table-condensed">
+        <tr style="border-top-style:hidden !important">
+            <td>Feb 20</td>
+            <td class="text-right">73.3&deg;F</td>
+        </tr>
+        <tr style="border-top-style:hidden !important">
+            <td>Feb 21</td>
+            <td class="text-right">73.5&deg;F</td>
+        </tr>
+        <tr style="border-top-style:hidden !important">
+            <td>Feb 22</td>
+            <td class="text-right">73.6&deg;F</td>
+        </tr>
+        <tr style="border-top-style:hidden !important">
+            <td>Feb 23</td>
+            <td class="text-right">73.8&deg;F</td>
+        </tr>
+    </table>
+</div>

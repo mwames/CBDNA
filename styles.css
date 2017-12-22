@@ -1,0 +1,116 @@
+nav {
+    background-color: #101010 !important;
+    border-radius: 0em !important;
+}
+nav a {
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #101010;
+    color: white;
+    font-weight: bold;
+}
+nav a:hover {
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #cc8708;
+    background-color: #101010 !important;
+    text-decoration: none;
+    color: white;
+}
+nav .active {
+    color: #cc8708;
+    background-color: #101010;
+    border-color: #101010;
+}
+nav .active:hover {
+    color: #cc8708;
+}
+nav a:focus {
+    background-color: #101010 !important;
+}
+a {
+    color: #cc8708;
+    font-weight: bold;
+}
+a:hover {
+    color: #a87008;
+    text-decoration: none;
+}
+.banner {
+    background-color:black;
+}
+.weather {
+    font-weight: bold;
+    color: white;
+}
+.row.match-cols {
+    overflow: hidden; 
+}
+.row.match-cols [class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+.stuck {
+    position:sticky;
+    left: 0;
+    top: 0;
+    width:100%;
+    z-index: 25;
+}
+.default-background {
+    background-color: white
+}
+.home-background {
+    /* overflow: hidden; */
+    position: relative;
+}
+.home-background::before {
+    content: ' ';
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url("images/13-0129-Community-Changemaker-002.jpg");
+    background-size: cover;
+    will-change: transform;
+    z-index: -1;
+}
+.info-window {
+    margin:1em;
+    padding:1em;
+    border-radius: 0.5em;
+}
+.gray {
+    background-color: lightgray;
+}
+.info-window h2,
+.info-window-xs h2 {
+    margin-top: 0;
+}
+.test {
+    width:100%; 
+    height:200px; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.clickable {
+    cursor: pointer;
+}
+.gallery:hover {
+    cursor: pointer;
+    position: relative;
+}
+.weather-card{
+    background-color: cornflowerblue;
+    display: inline-block;
+    padding: 0.5em;
+    color:white;
+    font-weight: bold;
+}
+.weather-background {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
