@@ -58,6 +58,13 @@ app.config(function($stateProvider, $urlRouterProvider) {
           controller: 'TravelController as travel'
       }
 
+      var contactState = {
+          name: 'contact',
+          url: '/contact',
+          templateUrl: './views/contact.html',
+          controller: 'ContactController as contact'
+      }
+
       $stateProvider.state(concertsState);
       $stateProvider.state(diningState);
       $stateProvider.state(homeState);
@@ -66,5 +73,6 @@ app.config(function($stateProvider, $urlRouterProvider) {
       $stateProvider.state(researchState);
       $stateProvider.state(lodgingState);
       $stateProvider.state(travelState);
+      $stateProvider.state(contactState);
       $urlRouterProvider.otherwise("/");
 }); 
