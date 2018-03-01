@@ -140,3 +140,6 @@ a:hover {
 .other-link:hover {
     color:rgb(0, 0, 109);
 }
+ul {
+    list-style-type: none;
+}
