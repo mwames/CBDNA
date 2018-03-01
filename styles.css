@@ -134,3 +134,9 @@ a:hover {
     background-repeat: no-repeat;
     background-size: contain;
 }
+.other-link {
+    color:blue;
+}
+.other-link:hover {
+    color:rgb(0, 0, 109);
+}
